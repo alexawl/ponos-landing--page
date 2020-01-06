@@ -4,24 +4,21 @@ const Navbar = () => {
   return (
     <nav className="teal lighten-1">
       <div className="nav-wrapper">
-        <a href="" className="brand-logo left">Logo</a>
+        <a href="" className="brand-logo left">Ponos</a>
         <a href="#" data-activates="mobile-demo" className="button-collapse right">
           <i className="material-icons">menu</i>
         </a>
         <ul id="mobile-demo" className="right hide-on-med-and-down">
           <li>
-            <a href="">Home</a>
+            <a href="">Empolyers</a>
           </li>
           <li>
-            <a href="">Services</a>
+            <a href="">Worker</a>
           </li>
           <li>
-            <a href="">Who we are</a>
+            <a href="">Sign in</a>
           </li>
-          <li>
-            <a href="">Portfolio</a>
-          </li>
-          <li>
+            <li>
             <a href="">Contact</a>
           </li>
         </ul>
